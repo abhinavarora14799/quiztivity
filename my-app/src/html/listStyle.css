@@ -1,0 +1,66 @@
+
+body{
+    background-color: #504C4C;
+    background-image: linear-gradient(315deg, #504C4C 0%, #263a3a 100%);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+section{
+    padding-top: 60px;
+    padding-left: 100px;
+}
+
+  h1{
+    color: white;
+    letter-spacing: 3px;
+  }
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.btn-group button {
+    background-color: #18a370; /* Green background */
+    border: 1px solid rgb(40, 82, 40); /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #4b7767;
+  }
