@@ -8,7 +8,7 @@ function Physics() {
     <div> 
   <div className="quiz-container" id="quiz">
     <div className="quiz-header">
-      <h2 id="question">Question Text</h2>
+      <h2 id="question">Question jaani</h2>
       <ul>
         <li>
           <input type="radio" name="answer" id="a" className="answer"/>

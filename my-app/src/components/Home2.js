@@ -23,7 +23,7 @@ function Home2() {
 		 <img src = {chemistrypic} alt="math" width="250" height="250"/>
          </BoxBtn>
 		 </Link>
-		 <Link to ='/Computer'>
+		 <Link to ='/Computer%20Science'>
          <BoxBtn>
 		 <img src = {computersciencepic} alt="math" width="250" height="250"/>
          </BoxBtn>

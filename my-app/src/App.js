@@ -12,6 +12,12 @@ import Navbar2 from './components/navbar2';
 import Home2 from './components/Home2';
 import Mathlist from './components/Mathlist';
 import Math from './components/Math'
+import Physics from './components/Physics';
+import Chemistry from './components/Chemistry';
+import Computer from './components/Computer';
+import Physicslist from './components/Physicslist';
+import Chemistrylist from './components/Chemistrylist';
+import Computerlist from './components/Computerlist';
 function App() {
     const [childData, setChildData] = useState("");
     if(childData === "TRUE"){
@@ -27,7 +33,14 @@ function App() {
                     <Route path='/Home2' exact element={<Home2/>}/>  
                     <Route path='/login' exact element={<Home2/>}/>
                     <Route path='/Math' exact element={<Mathlist/>}/>    
-                    <Route path='/MathQuiz' exact element={<Math/>}/>    
+                    <Route path='/MathQuiz' exact element={<Math/>}/>
+					<Route path='/PhysicsQuiz' exact element={<Physics/>}/>
+					<Route path='/Physics' exact element={<Physicslist/>}/>
+					<Route path='/Chemistry' exact element={<Chemistrylist/>}/>
+					<Route path='/ChemistryQuiz' exact element={<Chemistry/>}/>
+					<Route path='/Computer%20Science' exact element={<Computerlist/>}/>
+					<Route path='/Computer%20ScienceQuiz' exact element={<Computer/>}/>
+
                 </Routes>
                 </Router>
             </Homes2>
