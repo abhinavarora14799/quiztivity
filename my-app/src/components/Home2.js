@@ -7,28 +7,29 @@ import computersciencepic from '../images/computersciencepic.png'
 import { Link } from 'react-router-dom';
 function Home2() {
   return (
-     <Boxs>
-		 <Link to ='/Math'>
-         <BoxBtn>
-        <img src = {mathpic} alt="math" width="250" height="250"/>
-         </BoxBtn>
-		 </Link>
-		 <Link to ='/Physics'>
-         <BoxBtn>
-		<img src = {physicpic} alt="math" width="250" height="250"/>
-         </BoxBtn>
-		 </Link>
-		 <Link to ='/Chemistry'>
-         <BoxBtn>
-		 <img src = {chemistrypic} alt="math" width="250" height="250"/>
-         </BoxBtn>
-		 </Link>
-		 <Link to ='/Computer%20Science'>
-         <BoxBtn>
-		 <img src = {computersciencepic} alt="math" width="250" height="250"/>
-         </BoxBtn>
-		 </Link>
-     </Boxs>
+	  <><BigText> Welcome to Quzitivity !<br/> Please Choose the Subject you would like to Master.	</BigText>
+	  <Boxs>
+		  <Link to='/Math'>
+			  <BoxBtn>
+				  <img src={mathpic} alt="math" width="250" height="250" />
+			  </BoxBtn>
+		  </Link>
+		  <Link to='/Physics'>
+			  <BoxBtn>
+				  <img src={physicpic} alt="math" width="250" height="250" />
+			  </BoxBtn>
+		  </Link>
+		  <Link to='/Chemistry'>
+			  <BoxBtn>
+				  <img src={chemistrypic} alt="math" width="250" height="250" />
+			  </BoxBtn>
+		  </Link>
+		  <Link to='/Computer%20Science'>
+			  <BoxBtn>
+				  <img src={computersciencepic} alt="math" width="250" height="250" />
+			  </BoxBtn>
+		  </Link>
+	  </Boxs></>
 
   )
 }
