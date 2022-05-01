@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/quiztivity/static/css/main.4fd40458.css",
+    "main.js": "/quiztivity/static/js/main.9842d420.js",
+    "static/js/787.28cb0dcd.chunk.js": "/quiztivity/static/js/787.28cb0dcd.chunk.js",
+    "static/media/test.mp3": "/quiztivity/static/media/test.d6feed644eb4161f9b4d.mp3",
+    "static/media/physicspic.png": "/quiztivity/static/media/physicspic.98249397c0753318d648.png",
+    "static/media/Image1.png": "/quiztivity/static/media/Image1.34ec96eb35a8f505d8c3.png",
+    "static/media/chemistrypic.jpeg": "/quiztivity/static/media/chemistrypic.203c11a0a3fedacb1cc5.jpeg",
+    "static/media/mathpic.jpeg": "/quiztivity/static/media/mathpic.7fba05aa5491c1ed21a4.jpeg",
+    "static/media/computersciencepic.png": "/quiztivity/static/media/computersciencepic.ddd7d87dd97803893183.png",
+    "index.html": "/quiztivity/index.html",
+    "main.4fd40458.css.map": "/quiztivity/static/css/main.4fd40458.css.map",
+    "main.9842d420.js.map": "/quiztivity/static/js/main.9842d420.js.map",
+    "787.28cb0dcd.chunk.js.map": "/quiztivity/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fd40458.css",
+    "static/js/main.9842d420.js"
+  ]
+}
