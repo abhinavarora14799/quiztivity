@@ -1,22 +1,37 @@
 {
   "files": {
     "main.css": "/quiztivity/static/css/main.f362aa60.css",
-    "main.js": "/quiztivity/static/js/main.0e44874d.js",
+    "main.js": "/quiztivity/static/js/main.67b7ee8a.js",
     "static/js/787.28cb0dcd.chunk.js": "/quiztivity/static/js/787.28cb0dcd.chunk.js",
     "static/media/test.mp3": "/quiztivity/static/media/test.d6feed644eb4161f9b4d.mp3",
-    "static/media/starGif2.gif": "/quiztivity/static/media/starGif2.b40d0e65c09f6bddeb13.gif",
+    "static/media/Phy2.png": "/quiztivity/static/media/Phy2.8ef8b7e37c0157ead623.png",
+    "static/media/Phy3.png": "/quiztivity/static/media/Phy3.7b00f666477ac93b6ecb.png",
+    "static/media/Phy1.png": "/quiztivity/static/media/Phy1.d527975a943519295c76.png",
     "static/media/planetPhysics.png": "/quiztivity/static/media/planetPhysics.5c19d83cf735d67650b9.png",
+    "static/media/Math2.png": "/quiztivity/static/media/Math2.7991516c21b884acf446.png",
     "static/media/planetMath.png": "/quiztivity/static/media/planetMath.46ce4512319701f433af.png",
+    "static/media/Math3.png": "/quiztivity/static/media/Math3.e195730d351229374bc1.png",
+    "static/media/Math1.png": "/quiztivity/static/media/Math1.782bcc345e1b41d54bd1.png",
+    "static/media/back2.gif": "/quiztivity/static/media/back2.1069b7a069293c0ceefd.gif",
+    "static/media/Chem2.png": "/quiztivity/static/media/Chem2.5ecd500204768526d9d6.png",
+    "static/media/Chem3.png": "/quiztivity/static/media/Chem3.0c6e66284e6a09467732.png",
     "static/media/planetChem.png": "/quiztivity/static/media/planetChem.8db0c5f7572328bfbc51.png",
+    "static/media/Chem1.png": "/quiztivity/static/media/Chem1.c1abfad740229bdfb4fc.png",
     "static/media/planetCS.png": "/quiztivity/static/media/planetCS.e91e19583cb855d330bf.png",
+    "static/media/cs3.png": "/quiztivity/static/media/cs3.8c6aba7c4b2af6c2cbe9.png",
+    "static/media/cs2.png": "/quiztivity/static/media/cs2.bcb4720011ce3e8e4d85.png",
+    "static/media/cs1.png": "/quiztivity/static/media/cs1.81cfd558785c70a4ccda.png",
+    "static/media/starGif.gif": "/quiztivity/static/media/starGif.5a349ea0ee8b719479ca.gif",
     "static/media/Image1.png": "/quiztivity/static/media/Image1.34ec96eb35a8f505d8c3.png",
+    "static/media/back4.gif": "/quiztivity/static/media/back4.e55faa4b2218f27104e2.gif",
+    "static/media/back1.gif": "/quiztivity/static/media/back1.c9ce4e80254cd7f8dccf.gif",
     "index.html": "/quiztivity/index.html",
     "main.f362aa60.css.map": "/quiztivity/static/css/main.f362aa60.css.map",
-    "main.0e44874d.js.map": "/quiztivity/static/js/main.0e44874d.js.map",
+    "main.67b7ee8a.js.map": "/quiztivity/static/js/main.67b7ee8a.js.map",
     "787.28cb0dcd.chunk.js.map": "/quiztivity/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f362aa60.css",
-    "static/js/main.0e44874d.js"
+    "static/js/main.67b7ee8a.js"
   ]
 }
