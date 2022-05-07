@@ -31,6 +31,9 @@ const Navbar = () => {
           <NavLink to='/Home'  activestyle ="true">
             Computer Science
           </NavLink>
+          <NavLink to='/Home'  activestyle ="true">
+            FAQ
+          </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
