@@ -9,12 +9,10 @@ import character from '../images/starGif2.gif'
 import { Link } from 'react-router-dom';
 function Home2() {
   return (
-
-     <Boxs>
-
+<Box2>
     <BigText> Welcome to the Quzitivity Universe!<br/> Please choose your destination planet below. <br/><br/></BigText>
+    <Boxs>
     <img src = {character} alt="math" width="300" height="300"/> <br/>
-
 		 <Link to ='/Math'>
          <BoxBtn>
         <img src = {mathpic} alt="math" width="250" height="250"/>
@@ -36,6 +34,8 @@ function Home2() {
          </BoxBtn>
 		 </Link>
      </Boxs>
+</Box2>
+     
 
   )
 }
@@ -58,13 +58,18 @@ export const SmallText = styled.p`
     color: white;
 `;
 
+export const Box2 = styled.div`
+display:flex;
+flex-direction: column;
+`;
+
 export const Boxs = styled.div `
     display:flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
     height: 500px;
-    width: 90%;
+    width: 100%;
 `;
 
 export const TextContainer = styled.div`
