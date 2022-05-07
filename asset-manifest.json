@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/quiztivity/static/css/main.4fd40458.css",
-    "main.js": "/quiztivity/static/js/main.9842d420.js",
+    "main.css": "/quiztivity/static/css/main.f362aa60.css",
+    "main.js": "/quiztivity/static/js/main.0e44874d.js",
     "static/js/787.28cb0dcd.chunk.js": "/quiztivity/static/js/787.28cb0dcd.chunk.js",
     "static/media/test.mp3": "/quiztivity/static/media/test.d6feed644eb4161f9b4d.mp3",
-    "static/media/physicspic.png": "/quiztivity/static/media/physicspic.98249397c0753318d648.png",
+    "static/media/starGif2.gif": "/quiztivity/static/media/starGif2.b40d0e65c09f6bddeb13.gif",
+    "static/media/planetPhysics.png": "/quiztivity/static/media/planetPhysics.5c19d83cf735d67650b9.png",
+    "static/media/planetMath.png": "/quiztivity/static/media/planetMath.46ce4512319701f433af.png",
+    "static/media/planetChem.png": "/quiztivity/static/media/planetChem.8db0c5f7572328bfbc51.png",
+    "static/media/planetCS.png": "/quiztivity/static/media/planetCS.e91e19583cb855d330bf.png",
     "static/media/Image1.png": "/quiztivity/static/media/Image1.34ec96eb35a8f505d8c3.png",
-    "static/media/chemistrypic.jpeg": "/quiztivity/static/media/chemistrypic.203c11a0a3fedacb1cc5.jpeg",
-    "static/media/mathpic.jpeg": "/quiztivity/static/media/mathpic.7fba05aa5491c1ed21a4.jpeg",
-    "static/media/computersciencepic.png": "/quiztivity/static/media/computersciencepic.ddd7d87dd97803893183.png",
     "index.html": "/quiztivity/index.html",
-    "main.4fd40458.css.map": "/quiztivity/static/css/main.4fd40458.css.map",
-    "main.9842d420.js.map": "/quiztivity/static/js/main.9842d420.js.map",
+    "main.f362aa60.css.map": "/quiztivity/static/css/main.f362aa60.css.map",
+    "main.0e44874d.js.map": "/quiztivity/static/js/main.0e44874d.js.map",
     "787.28cb0dcd.chunk.js.map": "/quiztivity/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fd40458.css",
-    "static/js/main.9842d420.js"
+    "static/css/main.f362aa60.css",
+    "static/js/main.0e44874d.js"
   ]
 }
