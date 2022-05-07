@@ -12,7 +12,7 @@ function Home2() {
 <Box2>
     <Box3>
     <img src = {character} alt="math" width="300" height="300"/> <br/>
-    <BigText> Welcome to the Quzitivity Universe!<br/> Please choose your destination planet below. <br/><br/></BigText>
+    <BigText> Welcome to the Quiztivity Universe!<br/> Please choose your destination planet below. <br/><br/></BigText>
     </Box3>
     <Boxs>
 		 <Link to ='/Math'>
@@ -51,7 +51,7 @@ export const Img = styled.img`
 
 export const BigText = styled.p`
     font-size: 45px;
-    color: black;
+    color: yellow;
     font-weight: bold;
 `;
 
