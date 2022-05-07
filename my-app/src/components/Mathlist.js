@@ -8,9 +8,9 @@ function Mathlist() {
   return (
     <div>        
     <Sect>
-        <Button to='/Mathquiz'>Level 1</Button>
-         <Button  to='/Mathquiz'>Level 2</Button>
-        <Button  to='/Mathquiz'>Level 3</Button>
+        <Button to='/Mathquiz'>Level 1 - Beginner</Button>
+         <Button  to='/Mathquiz2'>Level 2 - Average</Button>
+        <Button  to='/Mathquiz3'>Level 3 - Expert</Button>
     </Sect>
     
     </div>

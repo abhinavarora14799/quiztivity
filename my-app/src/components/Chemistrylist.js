@@ -4,20 +4,20 @@ import {
     NavLink as Link
   } from 'react-router-dom';
 
-function Mathlist() {
+function Chemistrylist() {
   return (
     <div>        
     <Sect>
-        <Button to='/ChemistryQuiz'>Level 1</Button>
-         <Button  to='/ChemistryQuiz'>Level 2</Button>
-        <Button  to='/ChemistryQuiz'>Level 3</Button>
+        <Button to='/Chemistryquiz'>Level 1 - Beginner</Button>
+         <Button  to='/Chemistryquiz2'>Level 2 - Average</Button>
+        <Button  to='/Chemistryquiz3'>Level 3 - Expert</Button>
     </Sect>
     
     </div>
   )
 }
 
-export default Mathlist
+export default Chemistrylist
 
 
 

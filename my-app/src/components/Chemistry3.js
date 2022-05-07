@@ -3,51 +3,51 @@ import styled from 'styled-components'
 import '../html/quizstyle.css'
 import { Helmet } from "react-helmet"
 
-function Physics() {
+function Chemistry() {
   const questions = [
 		{
-			questionText: 'When an unbalanced force acts on an object, the force ___________________________?',
+			questionText: 'the basic unit of a chemical element',
 			answerOptions: [
-				{ answerText: 'changes the motion of the object ', isCorrect: false },
-				{ answerText: 'is cancelled by another force ', isCorrect: false },
-				{ answerText: 'does not change the motion of the object', isCorrect: true },
-				{ answerText: 'is equal to the weight of the object ', isCorrect: false },
+				{ answerText: 'atom', isCorrect: false },
+				{ answerText: 'matter', isCorrect: false },
+				{ answerText: 'neutron', isCorrect: true },
+				{ answerText: 'element', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'What do you call the process of vaporization that occurs throughout a liquid?',
+			questionText: 'The central part of an atom that contains the protons and neutrons',
 			answerOptions: [
-				{ answerText: 'sublimation ', isCorrect: false },
-				{ answerText: 'vaporization ', isCorrect: true },
-				{ answerText: 'plasma ', isCorrect: false },
-				{ answerText: 'boiling', isCorrect: false },
+				{ answerText: 'neutron', isCorrect: false },
+				{ answerText: 'nucleaus', isCorrect: true },
+				{ answerText: 'metal', isCorrect: false },
+				{ answerText: 'atom', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Matter is pulled to the ground by what?',
+			questionText: 'subatomic particle found in the nucleus of atoms that differs from the other subatomic particles',
 			answerOptions: [
-				{ answerText: 'Gravity', isCorrect: true },
-				{ answerText: 'Space', isCorrect: false },
-				{ answerText: 'air', isCorrect: false },
-				{ answerText: 'the moon', isCorrect: false },
+				{ answerText: 'atom', isCorrect: true },
+				{ answerText: 'electron', isCorrect: false },
+				{ answerText: 'proton', isCorrect: false },
+				{ answerText: 'neutron', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Gravity and friction are two kinds of what?',
+			questionText: 'smallest of the particles that make up an atom, and they carry a negative charge',
 			answerOptions: [
-				{ answerText: 'inertia', isCorrect: false },
-				{ answerText: 'forces', isCorrect: true },
-				{ answerText: 'masses', isCorrect: false },
-				{ answerText: 'foods', isCorrect: false },
+				{ answerText: 'Neuton', isCorrect: false },
+				{ answerText: 'electron', isCorrect: true },
+				{ answerText: 'boiling point', isCorrect: false },
+				{ answerText: 'evaporation', isCorrect: false },
 			],
 		},
     {
-			questionText: 'The force of attraction between any two objects that have mass is what?',
+			questionText: 'the number of protons in the nucleus of an atom',
 			answerOptions: [
-				{ answerText: 'energy', isCorrect: false },
-				{ answerText: 'gravity', isCorrect: true },
-				{ answerText: 'friction', isCorrect: false },
-				{ answerText: 'speed', isCorrect: false },
+				{ answerText: 'mass number', isCorrect: false },
+				{ answerText: 'solvent', isCorrect: true },
+				{ answerText: 'atomic number', isCorrect: false },
+				{ answerText: 'insolvent', isCorrect: false },
 			],
 		},
 	];
@@ -93,7 +93,7 @@ function Physics() {
 	);
 }
 
-export default Physics;
+export default Chemistry;
 
 
 

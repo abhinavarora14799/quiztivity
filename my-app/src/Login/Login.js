@@ -6,6 +6,10 @@ import { useNavigate } from "react-router-dom";
 
 
 
+
+
+
+
 function Login(props) {
   const [user_email, setEmail] = useState("");
   const [user_password, setPassword] = useState("");
@@ -20,7 +24,7 @@ function Login(props) {
     signInWithEmailAndPassword(auth, user_email, user_password).then((userCredential) => {
     // Signed in 
     const user = userCredential.user;
-    alert("User Logged in!");
+    alert("IN!");
     console.log(props);
     functionHandler();
     nav('/Home2');

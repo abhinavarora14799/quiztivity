@@ -4,20 +4,20 @@ import {
     NavLink as Link
   } from 'react-router-dom';
 
-function Mathlist() {
+function Computerlist() {
   return (
     <div>        
     <Sect>
-        <Button to='/Computer%20ScienceQuiz'>Level 1</Button>
-         <Button  to='/Computer%20ScienceQuiz'>Level 2</Button>
-        <Button  to='/Computer%20ScienceQuiz'>Level 3</Button>
+        <Button to='/Computerquiz'>Level 1 - Beginner</Button>
+         <Button  to='/Computerquiz2'>Level 2 - Average</Button>
+        <Button  to='/Computerquiz3'>Level 3 - Expert</Button>
     </Sect>
     
     </div>
   )
 }
 
-export default Mathlist
+export default Computerlist
 
 
 

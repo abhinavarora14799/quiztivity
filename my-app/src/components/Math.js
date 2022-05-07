@@ -1,44 +1,141 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
-import '../html/style.css'
+import '../html/quizstyle.css'
 import { Helmet } from "react-helmet"
 
 function Math() {
-  return (
-    <div> 
-  <div className="quiz-container" id="quiz">
-    <div className="quiz-header">
-      <h2 id="question">Question Text</h2>
-      <ul>
-        <li>
-          <input type="radio" name="answer" id="a" className="answer"/>
-          <label htmlFor="a" id="a_text">Answer</label>
-        </li>
+  const questions = [
+		{
+			questionText: 'Question 1: \nAdd negative numbers: −8 + 3 = ?',
+			answerOptions: [
+				{ answerText: '-11', isCorrect: false },
+				{ answerText: '11', isCorrect: false },
+				{ answerText: '-5', isCorrect: true },
+				{ answerText: '-3', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Question 2: \nWhich is the correct interpretation of the expression 4 − (−3)?',
+			answerOptions: [
+				{ answerText: 'Start at -3 on the number line and move 4 to the right', isCorrect: false },
+				{ answerText: 'Start at 4 on the number line and move 3 to the right', isCorrect: true },
+				{ answerText: 'Start at 4 on the number line and move 4 to the left', isCorrect: false },
+				{ answerText: 'Start at 4 on the number line and move 3 to the left', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Question 3: \nWhat is the sign of -1042 + 1042?',
+			answerOptions: [
+				{ answerText: 'Neither positive nor negative because the sum is zero', isCorrect: true },
+				{ answerText: 'Positive', isCorrect: false },
+				{ answerText: 'Negative', isCorrect: false },
+				{ answerText: 'None of the above', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Question 4: \nWrite the following percent as a decimal: 727%',
+			answerOptions: [
+				{ answerText: '72.7', isCorrect: false },
+				{ answerText: '727', isCorrect: false },
+				{ answerText: '0.727', isCorrect: false },
+				{ answerText: '7.27', isCorrect: true },
+			],
+		},
+    {
+			questionText: 'Question 5: \nJane was rock climbing. At one point, she stopped and climbed straight down 8 meters.Then she climbed straight up 16 meters. Which of the following equations matches the situation above?',
+			answerOptions: [
+				{ answerText: '-8 - 16 = ?', isCorrect: false },
+				{ answerText: '-8 + 16 = ?', isCorrect: true },
+				{ answerText: '-16 + 8 = ?', isCorrect: false },
+				{ answerText: '8 - 16 = ?', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'Question 6: \nWrite the following decimal as a percent: 6.16',
+			answerOptions: [
+				{ answerText: '6.16%', isCorrect: false },
+				{ answerText: '616%', isCorrect: true },
+				{ answerText: '0.616%', isCorrect: false },
+				{ answerText: '61.6%', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'Question 7: \nWhich of the following will equal -56 as the answer?',
+			answerOptions: [
+				{ answerText: '98-42', isCorrect: false },
+				{ answerText: '42+98', isCorrect: false },
+				{ answerText: '-42-98', isCorrect: false },
+				{ answerText: '42+(-98)', isCorrect: true },
+			],
+		},
+    {
+			questionText: 'Question 8: \nCalculate the percentage: 90%  of  100',
+			answerOptions: [
+				{ answerText: '90', isCorrect: true },
+				{ answerText: '9', isCorrect: false },
+				{ answerText: '100', isCorrect: false },
+				{ answerText: '10', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'Question 9: \nHow many percent of 100 is 25?',
+			answerOptions: [
+				{ answerText: '25 is 75%  of  100', isCorrect: false },
+				{ answerText: '100 is 25%  of  100', isCorrect: false },
+				{ answerText: '25 is 25%  of  100', isCorrect: true },
+				{ answerText: '100 is 25%  of  25', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'Question 10: \nA group of preschoolers has 5 boys and 3 girls. What is the ratio of girls to boys?',
+			answerOptions: [
+				{ answerText: '5 : 5', isCorrect: false },
+				{ answerText: '3 : 5', isCorrect: true },
+				{ answerText: '5 : 3', isCorrect: false },
+				{ answerText: '3 : 3', isCorrect: false },
+			],
+		},
+	];
 
-        <li>
-          <input type="radio" name="answer" id="b" className="answer"/>
-          <label htmlFor="b" id="b_text">Answer</label>
-        </li>
+	const [currentQuestion, setCurrentQuestion] = useState(0);
+	const [showScore, setShowScore] = useState(false);
+	const [score, setScore] = useState(0);
 
-        <li>
-          <input type="radio" name="answer" id="c" className="answer"/>
-          <label htmlFor="c" id="c_text">Answer</label>
-        </li>
+	const handleAnswerOptionClick = (isCorrect) => {
+		if (isCorrect) {
+			setScore(score + 1);
+		}
 
-        <li>
-          <input type="radio" name="answer" id="d" className="answer"/>
-          <label htmlFor="d" id="d_text">Answer</label>
-        </li>
-      </ul>
-    </div>
-    <button id="submit">Submit</button>
-  </div>
-  <Helmet>
-  <script async="true" src="script.js"></script>
-  </Helmet>
- 
-    </div>
-  )
+		const nextQuestion = currentQuestion + 1;
+		if (nextQuestion < questions.length) {
+			setCurrentQuestion(nextQuestion);
+		} else {
+			setShowScore(true);
+		}
+	};
+	return (
+		<div className='app'>
+			{showScore ? (
+				<div className='score-section'>
+					You scored {score} out of {questions.length}
+				</div>
+			) : (
+				<>
+					<div className='question-section'>
+						<div className='question-count'>
+							<span>Question {currentQuestion + 1}</span>/{questions.length}
+						</div>
+						<div className='question-text'>{questions[currentQuestion].questionText}</div>
+					</div>
+					<div className='answer-section'>
+						{questions[currentQuestion].answerOptions.map((answerOption) => (
+							<button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
+						))}
+					</div>
+				</>
+			)}
+		</div>
+	);
 }
 
 export default Math;

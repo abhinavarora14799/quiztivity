@@ -8,9 +8,10 @@ function Physicslist() {
   return (
     <div>        
     <Sect>
-        <Button to='/Physicsquiz'>Level 1</Button>
-         <Button to='/Physicsquiz'>Level 2</Button>
-        <Button  to='/Physicsquiz'>Level 3</Button>
+      Welcome to Physics!
+        <Button to='/Physicsquiz'>Level 1 - Beginner</Button>
+         <Button  to='/Physicsquiz2'>Level 2 - Average</Button>
+        <Button  to='/Physicsquiz3'>Level 3 - Expert</Button>
     </Sect>
     
     </div>

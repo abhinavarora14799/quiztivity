@@ -28,7 +28,7 @@ const Navbar2 = () => {
           <NavLink to='/Chemistry'  activestyle ="true">
             Chemistry
           </NavLink>
-          <NavLink to='/Computer Science'  activestyle ="true">
+          <NavLink to='/Computer'  activestyle ="true">
             Computer Science
           </NavLink>
           {/* Second Nav */}
