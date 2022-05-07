@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet"
 function Computer() {
   const questions = [
 		{
-			questionText: 'Question 1: \nWhy do computers use binary code to store data?',
+			questionText: 'Question 1: \nREPEATED QUESTION Why do computers use binary code to store data?',
 			answerOptions: [
 				{ answerText: 'Binary code is more reliable', isCorrect: false },
 				{ answerText: 'Binary code is much faster', isCorrect: false },
