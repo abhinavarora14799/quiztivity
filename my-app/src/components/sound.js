@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Sound from 'react-sound'; 
 import classic from  './test.mp3';
-
+import styled from 'styled-components';
 const PlaySound = (
     handleSongLoading,
     handleSongPlaying,
@@ -10,7 +10,7 @@ const PlaySound = (
     const [isPlaying, setIsPlaying] = useState(false);
 
     return(
-        <div>
+        <MP3>
             <button onClick={() => setIsPlaying(!isPlaying)}> {!isPlaying ? 'Play' : 'Stop'}</button>
             <Sound 
             url={classic}
@@ -20,8 +20,12 @@ const PlaySound = (
             onPlaying={handleSongPlaying}
             onFinishedPlaying={handleSongFinishedPlaying}
             />
-        </div>
+        </MP3>
     );
 };
 
 export default PlaySound;
+
+export const MP3 = styled.div`
+    margin-left: 10px;
+`

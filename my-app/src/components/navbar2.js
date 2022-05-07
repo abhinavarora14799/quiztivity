@@ -8,7 +8,7 @@ import {
   NavBtnLink,
   Logo,
 } from '../home_page/NavElements.js';
-  
+import PlaySound from './sound';
 const Navbar2 = () => {
   return (
     <>
@@ -39,6 +39,7 @@ const Navbar2 = () => {
           <NavBtnLink to='/login'>Log In</NavBtnLink>
           <NavBtnLink to='/signup'>Sign Up</NavBtnLink>
         </NavBtn> */}
+        <PlaySound/>
       </Nav>
     </>
   );
