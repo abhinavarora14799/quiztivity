@@ -6,25 +6,25 @@ import { Helmet } from "react-helmet"
 function Physics() {
   const questions = [
 		{
-			questionText: 'What is a gas?',
+			questionText: 'what are forces measured in?',
 			answerOptions: [
-				{ answerText: 'It has a definite shape and volume', isCorrect: false },
-				{ answerText: 'It has a definite shape, but no definite volume. ', isCorrect: false },
-				{ answerText: 'It has no definite shape or volume. ', isCorrect: true },
-				{ answerText: 'It has no definite shape, but a definite volume. ', isCorrect: false },
+				{ answerText: 'kilometers', isCorrect: false },
+				{ answerText: 'miles', isCorrect: false },
+				{ answerText: 'newtons', isCorrect: true },
+				{ answerText: 'tons', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Thermal energy always moves where?',
+			questionText: 'What is an example of a force?',
 			answerOptions: [
-				{ answerText: 'from a higher temperature to a lower temperature. ', isCorrect: false },
-				{ answerText: 'from a lower temperature to a higher temperature. ', isCorrect: true },
-				{ answerText: 'from inside to outside. ', isCorrect: false },
-				{ answerText: 'from outside to inside. ', isCorrect: false },
+				{ answerText: 'a push', isCorrect: false },
+				{ answerText: 'all of these', isCorrect: true },
+				{ answerText: 'a pull', isCorrect: false },
+				{ answerText: 'a twist', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Because of loosely packed molecules, a liquid does what?',
+			questionText: 'What is friction?',
 			answerOptions: [
 				{ answerText: 'resists flowing', isCorrect: true },
 				{ answerText: 'takes shape of container', isCorrect: false },
@@ -33,11 +33,11 @@ function Physics() {
 			],
 		},
 		{
-			questionText: 'How fast an object is moving, regardless of its direction, is called what?',
+			questionText: 'Which object would have the most friction?',
 			answerOptions: [
-				{ answerText: 'inertia', isCorrect: false },
+				{ answerText: 'carpet', isCorrect: false },
 				{ answerText: 'speed', isCorrect: true },
-				{ answerText: 'forces', isCorrect: false },
+				{ answerText: 'sandpaper', isCorrect: false },
 				{ answerText: 'velocity', isCorrect: false },
 			],
 		},
@@ -49,20 +49,20 @@ function Physics() {
 				{ answerText: 'linear quanitity', isCorrect: false },
 				{ answerText: 'speed', isCorrect: false },
 			],
-			questionText: 'A location to which you can compare other locations is called',
+			questionText: 'when Is an unbalanced force shown?',
 			answerOptions: [
-				{ answerText: 'reference point', isCorrect: false },
-				{ answerText: 'motion', isCorrect: false },
-				{ answerText: 'position', isCorrect: true },
-				{ answerText: 'location', isCorrect: false },
+				{ answerText: 'start moving', isCorrect: false },
+				{ answerText: 'stop moving', isCorrect: false },
+				{ answerText: 'slow down', isCorrect: true },
+				{ answerText: 'changes direction', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The change of position over time is called',
+			questionText: 'What is Gravity?',
 			answerOptions: [
-				{ answerText: 'position', isCorrect: false },
-				{ answerText: 'speed', isCorrect: true },
-				{ answerText: 'location', isCorrect: false },
+				{ answerText: 'a fruit', isCorrect: false },
+				{ answerText: 'a planet', isCorrect: true },
+				{ answerText: 'Something that keeps you on the ground', isCorrect: false },
 				{ answerText: 'from outside to inside. ', isCorrect: false },
 			],
 		},
