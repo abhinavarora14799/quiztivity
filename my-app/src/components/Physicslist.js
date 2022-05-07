@@ -4,14 +4,22 @@ import {
     NavLink as Link
   } from 'react-router-dom';
 
+import phy1 from '../images/Phy1.png'
+import phy2 from '../images/Phy2.png'
+import phy3 from '../images/Phy3.png'
+
+import phyback from '../images/back4.gif'
+
 function Physicslist() {
   return (
     <div>        
     <Sect>
-      Welcome to Physics!
-        <Button to='/Physicsquiz'>Level 1 - Beginner</Button>
-         <Button  to='/Physicsquiz2'>Level 2 - Average</Button>
-        <Button  to='/Physicsquiz3'>Level 3 - Expert</Button>
+    <img src = {phyback} alt="math" width="130" height="130"></img>
+      Welcome to Physics!<img src = {phyback} alt="math" width="130" height="130"></img><br/><br/>Pick your level of difficulty below to get started
+      
+        <Button to='/Physicsquiz'><img src = {phy1} alt="math" width="250" height="250"></img></Button>
+         <Button  to='/Physicsquiz2'><img src = {phy2} alt="math" width="250" height="250"></img></Button>
+        <Button  to='/Physicsquiz3'><img src = {phy3} alt="math" width="250" height="250"></img></Button>
     </Sect>
     
     </div>
@@ -23,7 +31,7 @@ export default Physicslist
 
 
 const Sect = styled.section`
-padding-top: 60px;
+
 padding-left: 100px;
 `
 
@@ -34,18 +42,12 @@ font-size: 20px;
 `;
 
 const Button = styled(Link)`
-background-color: #18a370; /* Green background */
-border: 1px solid rgb(40, 82, 40); /* Green border */
-color: white; /* White text */
+
 padding: 10px 24px; /* Some padding */
 cursor: pointer; /* Pointer/hand icon */
 width: 200px; /* Set a width if needed */
 display: block; /* Make the buttons appear below each other */
-&:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-  };
-&:hover {
-    background-color: #4b7767;
+
 };
 `
 

@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet"
 function Math() {
   const questions = [
 		{
-			questionText: 'Question 1: \nAdd negative numbers: −8 + 3 = ?',
+			questionText: 'Question 1: \nAdd negative numbers: −8+3=?',
 			answerOptions: [
 				{ answerText: '-11', isCorrect: false },
 				{ answerText: '11', isCorrect: false },
@@ -15,7 +15,7 @@ function Math() {
 			],
 		},
 		{
-			questionText: 'Question 2: \nWhich is the correct interpretation of the expression 4 − (−3)?',
+			questionText: 'Question 2: \nWhich is the correct interpretation of the expression 4−(−3)?',
 			answerOptions: [
 				{ answerText: 'Start at -3 on the number line and move 4 to the right', isCorrect: false },
 				{ answerText: 'Start at 4 on the number line and move 3 to the right', isCorrect: true },
@@ -24,7 +24,7 @@ function Math() {
 			],
 		},
 		{
-			questionText: 'Question 3: \nWhat is the sign of -1042 + 1042?',
+			questionText: 'Question 3: \nWhat is the sign of -1042+1042?',
 			answerOptions: [
 				{ answerText: 'Neither positive nor negative because the sum is zero', isCorrect: true },
 				{ answerText: 'Positive', isCorrect: false },

@@ -4,13 +4,22 @@ import {
     NavLink as Link
   } from 'react-router-dom';
 
+import cs1 from '../images/cs1.png'
+import cs2 from '../images/cs2.png'
+import cs3 from '../images/cs3.png'
+
+import csback from '../images/back1.gif'
+
 function Computerlist() {
   return (
     <div>        
     <Sect>
-        <Button to='/Computerquiz'>Level 1 - Beginner</Button>
-         <Button  to='/Computerquiz2'>Level 2 - Average</Button>
-        <Button  to='/Computerquiz3'>Level 3 - Expert</Button>
+    <img src = {csback} alt="math" width="130" height="130"></img>
+    Welcome to Computer Science!<img src = {csback} alt="math" width="130" height="130"></img><br/><br/>Pick your level of difficulty below to get started
+
+        <Button to='/Computerquiz'><img src = {cs1} alt="math" width="250" height="250"></img></Button>
+         <Button  to='/Computerquiz2'><img src = {cs2} alt="math" width="250" height="250"></img></Button>
+        <Button  to='/Computerquiz3'><img src = {cs3} alt="math" width="250" height="250"></img></Button>
     </Sect>
     
     </div>
@@ -22,7 +31,7 @@ export default Computerlist
 
 
 const Sect = styled.section`
-padding-top: 60px;
+
 padding-left: 100px;
 `
 
@@ -33,18 +42,11 @@ font-size: 20px;
 `;
 
 const Button = styled(Link)`
-background-color: #18a370; /* Green background */
-border: 1px solid rgb(40, 82, 40); /* Green border */
-color: white; /* White text */
 padding: 10px 24px; /* Some padding */
 cursor: pointer; /* Pointer/hand icon */
 width: 200px; /* Set a width if needed */
 display: block; /* Make the buttons appear below each other */
-&:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-  };
-&:hover {
-    background-color: #4b7767;
+
 };
 `
 

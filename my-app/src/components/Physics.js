@@ -49,6 +49,49 @@ function Physics() {
 				{ answerText: 'friction', isCorrect: false },
 				{ answerText: 'speed', isCorrect: false },
 			],
+			questionText: 'This is when gas matter loses thermal energy and converts to a liquid form.',
+			answerOptions: [
+				{ answerText: 'evaporation ', isCorrect: false },
+				{ answerText: 'sublimation', isCorrect: false },
+				{ answerText: 'gassification', isCorrect: true },
+				{ answerText: 'californication', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'This is the process of changing liquid matter into solid matter.',
+			answerOptions: [
+				{ answerText: 'freezing', isCorrect: false },
+				{ answerText: 'condensation', isCorrect: true },
+				{ answerText: 'plasma ', isCorrect: false },
+				{ answerText: 'boiling', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Physics is the study of',
+			answerOptions: [
+				{ answerText: 'Gravity', isCorrect: true },
+				{ answerText: 'matter', isCorrect: false },
+				{ answerText: 'air', isCorrect: false },
+				{ answerText: 'the moon', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'This is the amount of space that matter takes up.',
+			answerOptions: [
+				{ answerText: 'inertia', isCorrect: false },
+				{ answerText: 'volume', isCorrect: true },
+				{ answerText: 'masses', isCorrect: false },
+				{ answerText: 'foods', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'This is the basic unit of matter.',
+			answerOptions: [
+				{ answerText: 'energy', isCorrect: false },
+				{ answerText: 'atom', isCorrect: true },
+				{ answerText: 'ion', isCorrect: false },
+				{ answerText: 'speed', isCorrect: false },
+			],
 		},
 	];
 

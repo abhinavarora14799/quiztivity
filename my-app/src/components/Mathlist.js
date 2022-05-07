@@ -3,14 +3,24 @@ import styled from 'styled-components'
 import {
     NavLink as Link
   } from 'react-router-dom';
+import { Img } from './Home2';
+
+import Math1 from '../images/Math1.png'
+import Math2 from '../images/Math2.png'
+import Math3 from '../images/Math3.png'
+
+import mathback from '../images/back2.gif'
 
 function Mathlist() {
   return (
     <div>        
     <Sect>
-        <Button to='/Mathquiz'>Level 1 - Beginner</Button>
-         <Button  to='/Mathquiz2'>Level 2 - Average</Button>
-        <Button  to='/Mathquiz3'>Level 3 - Expert</Button>
+    <img src = {mathback} alt="math" width="130" height="130"></img>
+    Welcome to Math!<img src = {mathback} alt="math" width="130" height="130"></img><br/><br/>Pick your level of difficulty below to get started
+
+        <Button to='/Mathquiz'><img src = {Math1} alt="math" width="250" height="250"></img></Button>
+         <Button  to='/Mathquiz2'><img src = {Math2} alt="math" width="250" height="250"></img></Button>
+        <Button  to='/Mathquiz3'><img src = {Math3} alt="math" width="250" height="250"></img></Button>
     </Sect>
     
     </div>
@@ -22,7 +32,7 @@ export default Mathlist
 
 
 const Sect = styled.section`
-padding-top: 60px;
+
 padding-left: 100px;
 `
 
@@ -33,18 +43,13 @@ font-size: 20px;
 `;
 
 const Button = styled(Link)`
-background-color: #18a370; /* Green background */
-border: 1px solid rgb(40, 82, 40); /* Green border */
-color: white; /* White text */
+
+
 padding: 10px 24px; /* Some padding */
 cursor: pointer; /* Pointer/hand icon */
 width: 200px; /* Set a width if needed */
 display: block; /* Make the buttons appear below each other */
-&:not(:last-child) {
-    border-bottom: none; /* Prevent double borders */
-  };
-&:hover {
-    background-color: #4b7767;
+
 };
 `
 

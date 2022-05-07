@@ -87,7 +87,7 @@ export const Form = styled.form`
 export const Label = styled.label`
     font-size: 25px;
     font-weight: bold;
-    color: #27FFC9;
+    color: #FFF59E;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -96,7 +96,7 @@ export const Label = styled.label`
 export const Label2 = styled.label`
     font-size: 25px;
     font-weight: bold;
-    color: #27FFC9;
+    color: #FFF59E;
     display: flex;
     gap: 22px;
     align-items: center;
@@ -109,7 +109,7 @@ export const Input = styled.input`
 export const Text = styled.p`
   font-size: 35px;
   font-weight: bold;
-  color: #27FFC9;
+  color: #FFF59E;
   margin-bottom: 30px;
   text-decoration: underline;
 `
@@ -118,7 +118,7 @@ export const BoxBtnLink = styled(Link)
 `
 
   width: 500px;
-  background: #5AC8C8;
+  background: orange;
   padding: 15px 22px;
   color: #000000;
   outline: none;

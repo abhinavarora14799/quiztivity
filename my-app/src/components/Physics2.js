@@ -49,6 +49,49 @@ function Physics() {
 				{ answerText: 'linear quanitity', isCorrect: false },
 				{ answerText: 'speed', isCorrect: false },
 			],
+			questionText: 'A location to which you can compare other locations is called',
+			answerOptions: [
+				{ answerText: 'reference point', isCorrect: false },
+				{ answerText: 'motion', isCorrect: false },
+				{ answerText: 'position', isCorrect: true },
+				{ answerText: 'location', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The change of position over time is called',
+			answerOptions: [
+				{ answerText: 'position', isCorrect: false },
+				{ answerText: 'speed', isCorrect: true },
+				{ answerText: 'location', isCorrect: false },
+				{ answerText: 'from outside to inside. ', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The measure of how quickly something moves or the distance it moves in a given amount of time is called',
+			answerOptions: [
+				{ answerText: 'motion', isCorrect: true },
+				{ answerText: 'speed', isCorrect: false },
+				{ answerText: 'position', isCorrect: false },
+				{ answerText: 'location', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The unit speed is measured in is',
+			answerOptions: [
+				{ answerText: 'm/s', isCorrect: false },
+				{ answerText: 'm/hr', isCorrect: true },
+				{ answerText: 'ft/min', isCorrect: false },
+				{ answerText: 'velocity', isCorrect: false },
+			],
+		},
+    {
+			questionText: ' Speed is equal to the distance divided by',
+			answerOptions: [
+				{ answerText: 'energy', isCorrect: false },
+				{ answerText: 'postion', isCorrect: true },
+				{ answerText: 'linear quanitity', isCorrect: false },
+				{ answerText: 'height', isCorrect: false },
+			],
 		},
 	];
 

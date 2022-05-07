@@ -78,7 +78,7 @@ function Math() {
 			],
 		},
 		{
-			questionText: 'Question 9: \nWhat is the value of the expression 8x – 10 when x = 5?',
+			questionText: 'Question 9: \nWhat is the value of the expression 8x–10 when x = 5?',
 			answerOptions: [
 				{ answerText: '30', isCorrect: true },
 				{ answerText: '12', isCorrect: false },

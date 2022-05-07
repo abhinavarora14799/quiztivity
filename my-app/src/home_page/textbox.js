@@ -94,7 +94,7 @@ export const BoxBtnLink = styled(Link)
 `
   border-radius: 25px;
   width: 17em;
-  background: #4EAB7F;
+  background: linear-gradient(to right, #FFF59E, orange);
   padding: 15px 22px;
   color: #000000;
   outline: none;

@@ -49,6 +49,49 @@ function Chemistry() {
 				{ answerText: 'atomic number', isCorrect: false },
 				{ answerText: 'insolvent', isCorrect: false },
 			],
+		questionText: 'What is a mixture? ',
+			answerOptions: [
+				{ answerText: 'a combination of elements to make a new substance ', isCorrect: false },
+				{ answerText: 'a chemically combined substance', isCorrect: false },
+				{ answerText: 'neutron', isCorrect: true },
+				{ answerText: 'element', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'In a solution which part of the solution is the solute: ice tea mix or water? ',
+			answerOptions: [
+				{ answerText: 'ice tea', isCorrect: false },
+				{ answerText: 'water', isCorrect: true },
+				{ answerText: 'metal', isCorrect: false },
+				{ answerText: 'atom', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What is a substance that is dissolved in another substance? ',
+			answerOptions: [
+				{ answerText: 'atom', isCorrect: true },
+				{ answerText: 'electron', isCorrect: false },
+				{ answerText: 'solution', isCorrect: false },
+				{ answerText: 'solute', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What is the simplest form that cannot be broken down to anything simpler? ',
+			answerOptions: [
+				{ answerText: 'Neuton', isCorrect: false },
+				{ answerText: 'electron', isCorrect: true },
+				{ answerText: 'boiling point', isCorrect: false },
+				{ answerText: 'element', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'Which of the following is not a separation technique',
+			answerOptions: [
+				{ answerText: 'mass number', isCorrect: false },
+				{ answerText: 'solvent', isCorrect: true },
+				{ answerText: 'hand sorting', isCorrect: false },
+				{ answerText: 'insolvent', isCorrect: false },
+			],
 		},
 	];
 

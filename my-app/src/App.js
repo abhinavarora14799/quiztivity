@@ -97,16 +97,16 @@ function App() {
 export default App;
 
 export const Home = styled.div`
-background-image: linear-gradient(315deg, #504C4C 0%, #263a3a 100%);
+background-image: linear-gradient(315deg, #FFF59E 0%, orange 100%);
 display: flex;
-flex-direction: column;
+flex-direction: column;22
 justify-content: space-between;
 gap: 200px;
 align-items: center;
 `;
 
 export const Homes2 = styled.div`
-background-image: linear-gradient(315deg, #504C4C 0%, #263a3a 100%);
+background-image: linear-gradient(315deg, #FFF59E 0%, orange 100%);
 display: flex;
 flex-direction: column;
 justify-content: space-between;

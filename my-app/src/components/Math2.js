@@ -15,7 +15,7 @@ function Math() {
 			],
 		},
 		{
-			questionText: 'Question 2: \nSolve and find a: 2 – 2a  =  10',
+			questionText: 'Question 2: \nSolve and find a: 2–2a=10',
 			answerOptions: [
 				{ answerText: 'a = 2', isCorrect: false },
 				{ answerText: 'a = -4', isCorrect: true },
@@ -42,7 +42,7 @@ function Math() {
 			],
 		},
 		{
-			questionText: 'Question 5: \nSolve and find z: 11 = 11 – 5z',
+			questionText: 'Question 5: \nSolve and find z: 11=11–5z',
 			answerOptions: [
 				{ answerText: 'z = 0', isCorrect: true },
 				{ answerText: 'z = -11', isCorrect: false },

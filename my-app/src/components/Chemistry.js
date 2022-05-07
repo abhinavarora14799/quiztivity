@@ -49,6 +49,43 @@ function Chemistry() {
 				{ answerText: 'substrate', isCorrect: false },
 				{ answerText: 'insolvent', isCorrect: false },
 			],
+			questionText: 'I can easily compress the water in a jar to reduce its volume.',
+			answerOptions: [
+				{ answerText: 'True', isCorrect: false },
+				{ answerText: 'False', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'When water evaporates, it turns into solid.',
+			answerOptions: [
+				{ answerText: 'true', isCorrect: false },
+				{ answerText: 'false', isCorrect: true },
+			],
+		},
+		{
+			questionText: 'Water expands in all directions to take the shape of the container it is in.',
+			answerOptions: [
+				{ answerText: 'true', isCorrect: true },
+				{ answerText: 'false', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'The conversion of matter from solid state to liquid state is called ',
+			answerOptions: [
+				{ answerText: 'Vaporization.', isCorrect: false },
+				{ answerText: 'melting point', isCorrect: true },
+				{ answerText: 'Melting', isCorrect: false },
+				{ answerText: 'evaporation', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'Which of the following does not take the shape of the container it is in?',
+			answerOptions: [
+				{ answerText: 'water', isCorrect: false },
+				{ answerText: 'solvent', isCorrect: true },
+				{ answerText: 'air', isCorrect: false },
+				{ answerText: 'lead', isCorrect: false },
+			],
 		},
 	];
 

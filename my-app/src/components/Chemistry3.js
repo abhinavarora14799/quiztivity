@@ -6,47 +6,90 @@ import { Helmet } from "react-helmet"
 function Chemistry() {
   const questions = [
 		{
-			questionText: 'the basic unit of a chemical element',
+			questionText: 'Which kitchen job involves a chemical change?',
 			answerOptions: [
-				{ answerText: 'atom', isCorrect: false },
-				{ answerText: 'matter', isCorrect: false },
-				{ answerText: 'neutron', isCorrect: true },
-				{ answerText: 'element', isCorrect: false },
+				{ answerText: 'Making ice cubes', isCorrect: false },
+				{ answerText: 'Making ice cubes', isCorrect: false },
+				{ answerText: 'Slicing a carrot', isCorrect: true },
+				{ answerText: 'Boiling waters', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The central part of an atom that contains the protons and neutrons',
+			questionText: 'Dissolving sugar into sweet tea is an example of a',
 			answerOptions: [
-				{ answerText: 'neutron', isCorrect: false },
-				{ answerText: 'nucleaus', isCorrect: true },
+				{ answerText: 'chemical change', isCorrect: false },
+				{ answerText: 'physical change', isCorrect: true },
 				{ answerText: 'metal', isCorrect: false },
 				{ answerText: 'atom', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'subatomic particle found in the nucleus of atoms that differs from the other subatomic particles',
+			questionText: 'Which property of matter stays the same during both physical and chemical changes?',
 			answerOptions: [
-				{ answerText: 'atom', isCorrect: true },
-				{ answerText: 'electron', isCorrect: false },
-				{ answerText: 'proton', isCorrect: false },
+				{ answerText: 'Density', isCorrect: true },
+				{ answerText: 'state of matter', isCorrect: false },
+				{ answerText: 'mass', isCorrect: false },
 				{ answerText: 'neutron', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'smallest of the particles that make up an atom, and they carry a negative charge',
+			questionText: 'Each of the pictures above shows a change that produces bubbles.  Which one shows a physical change?',
+			answerOptions: [
+				{ answerText: 'Vinegar onto baking soda', isCorrect: false },
+				{ answerText: 'heating water', isCorrect: true },
+				{ answerText: 'boiling point', isCorrect: false },
+				{ answerText: 'mentos into coke', isCorrect: false },
+			],
+		},
+    {
+			questionText: 'Which statement is true about acids?',
+			answerOptions: [
+				{ answerText: 'They hurt', isCorrect: false },
+				{ answerText: 'They turn litmus paper blue', isCorrect: true },
+				{ answerText: 'they can harm you', isCorrect: false },
+				{ answerText: 'they have a ph of 7 or below', isCorrect: false },
+			],
+		questionText: 'What is a mixture? ',
+			answerOptions: [
+				{ answerText: 'a combination of elements to make a new substance ', isCorrect: false },
+				{ answerText: 'a chemically combined substance', isCorrect: false },
+				{ answerText: 'neutron', isCorrect: true },
+				{ answerText: 'element', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'If a substance turns blue litmus paper red, and does not change red litmus paper, it is:',
+			answerOptions: [
+				{ answerText: 'an acid', isCorrect: false },
+				{ answerText: 'a base', isCorrect: true },
+				{ answerText: 'a neutral', isCorrect: false },
+				{ answerText: 'atom', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'Predict the pH of lye, a strong base used in oven cleaners',
+			answerOptions: [
+				{ answerText: '2', isCorrect: true },
+				{ answerText: '4', isCorrect: false },
+				{ answerText: '6', isCorrect: false },
+				{ answerText: '8', isCorrect: false },
+			],
+		},
+		{
+			questionText: 'What is the simplest form that cannot be broken down to anything simpler? ',
 			answerOptions: [
 				{ answerText: 'Neuton', isCorrect: false },
 				{ answerText: 'electron', isCorrect: true },
 				{ answerText: 'boiling point', isCorrect: false },
-				{ answerText: 'evaporation', isCorrect: false },
+				{ answerText: 'element', isCorrect: false },
 			],
 		},
     {
-			questionText: 'the number of protons in the nucleus of an atom',
+			questionText: 'Which of the following is not a separation technique',
 			answerOptions: [
 				{ answerText: 'mass number', isCorrect: false },
 				{ answerText: 'solvent', isCorrect: true },
-				{ answerText: 'atomic number', isCorrect: false },
+				{ answerText: 'hand sorting', isCorrect: false },
 				{ answerText: 'insolvent', isCorrect: false },
 			],
 		},

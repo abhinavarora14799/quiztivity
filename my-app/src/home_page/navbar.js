@@ -29,7 +29,7 @@ const Navbar = () => {
             Chemistry
           </NavLink>
           <NavLink to='/Home'  activestyle ="true">
-            Computer Sience
+            Computer Science
           </NavLink>
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}

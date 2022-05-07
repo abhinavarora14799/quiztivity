@@ -17,22 +17,22 @@ function Home2() {
     <Boxs>
 		 <Link to ='/Math'>
          <BoxBtn>
-        <img src = {mathpic} alt="math" width="250" height="250"/>
+        <img src = {mathpic} alt="math" width="350" height="350"/>
          </BoxBtn>
 		 </Link>
 		 <Link to ='/Physics'>
          <BoxBtn>
-		<img src = {physicpic} alt="math" width="250" height="250"/>
+		<img src = {physicpic} alt="math" width="350" height="350"/>
          </BoxBtn>
 		 </Link>
 		 <Link to ='/Chemistry'>
          <BoxBtn>
-		 <img src = {chemistrypic} alt="math" width="250" height="250"/>
+		 <img src = {chemistrypic} alt="math" width="350" height="350"/>
          </BoxBtn>
 		 </Link>
 		 <Link to ='/Computer'>
          <BoxBtn>
-		 <img src = {computersciencepic} alt="math" width="250" height="250"/>
+		 <img src = {computersciencepic} alt="math" width="350" height="350"/>
          </BoxBtn>
 		 </Link>
      </Boxs>
@@ -69,7 +69,7 @@ export const Boxs = styled.div `
     display:flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: white;
+  
     height: 500px;
     width: 100%;
 `;
@@ -96,7 +96,7 @@ export const Container = styled.div`
 
 export const BoxBtn = styled.nav `
   display: flex;
-  background-color: white;
+
   align-text: center;
   justify-content: center;
   align-items: center;
