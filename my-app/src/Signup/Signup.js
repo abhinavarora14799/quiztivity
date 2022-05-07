@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from "react";
-import db from '../Firebase';
+import db from '../firebase';
 import validator from 'validator';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 

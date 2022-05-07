@@ -4,15 +4,17 @@ import mathpic from '../images/planetMath.png'
 import physicpic from '../images/planetPhysics.png'
 import chemistrypic from '../images/planetChem.png'
 import computersciencepic from '../images/planetCS.png'
-import character from '../images/starGif2.gif'
+import character from '../images/starGif.gif'
 
 import { Link } from 'react-router-dom';
 function Home2() {
   return (
 <Box2>
-    <BigText> Welcome to the Quzitivity Universe!<br/> Please choose your destination planet below. <br/><br/></BigText>
-    <Boxs>
+    <Box3>
     <img src = {character} alt="math" width="300" height="300"/> <br/>
+    <BigText> Welcome to the Quzitivity Universe!<br/> Please choose your destination planet below. <br/><br/></BigText>
+    </Box3>
+    <Boxs>
 		 <Link to ='/Math'>
          <BoxBtn>
         <img src = {mathpic} alt="math" width="250" height="250"/>
@@ -70,6 +72,11 @@ export const Boxs = styled.div `
     background-color: white;
     height: 500px;
     width: 100%;
+`;
+export const Box3 = styled.div `
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
 `;
 
 export const TextContainer = styled.div`
