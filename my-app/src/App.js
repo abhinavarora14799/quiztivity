@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import Homes from './Homes';
 import Login from './Login/Login';
 import Signup from './Signup/Signup';
-import PlaySound from './components/sound';
+
 import Navbar2 from './components/navbar2';
 import Home2 from './components/Home2';
 
@@ -85,7 +85,7 @@ function App() {
                         <Route path='signup' exact element={<Signup/>}/>
                 </Routes>
                 </Router>
-                <PlaySound/>
+
             </Home>
             // <Homes></Homes>
         );

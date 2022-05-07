@@ -8,8 +8,11 @@ import {
   NavBtnLink,
   Logo,
 } from '../home_page/NavElements.js';
-  
-const Navbar2 = () => {
+import PlaySound from './sound';
+const Navbar2 = (props) => {
+  const functionHandler = () => {
+    props.passChildData("FALSE");
+    };
   return (
     <>
       <Nav>
@@ -35,10 +38,13 @@ const Navbar2 = () => {
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
 
-        {/* <NavBtn>
-          <NavBtnLink to='/login'>Log In</NavBtnLink>
+        {
+           <NavBtnLink to='/' onClick={functionHandler}>Log out</NavBtnLink>
+        /* <NavBtn>
+         
           <NavBtnLink to='/signup'>Sign Up</NavBtnLink>
         </NavBtn> */}
+        <PlaySound/>
       </Nav>
     </>
   );
