@@ -16,19 +16,19 @@ const Navbar = () => {
         <Bars />
         <Logo>Quiztivity</Logo>
         <NavMenu>
-          <NavLink to='/' activestyle ="true">
+          <NavLink to='/Home' activestyle ="true">
             Home
           </NavLink>
-          <NavLink to='/'  activestyle ="true">
+          <NavLink to='/Home'  activestyle ="true">
             Math
           </NavLink>
-          <NavLink to='/'  activestyle ="true">
+          <NavLink to='/Home'  activestyle ="true">
             Physics
           </NavLink>
-          <NavLink to='/'  activestyle ="true">
+          <NavLink to='/Home'  activestyle ="true">
             Chemistry
           </NavLink>
-          <NavLink to='/'  activestyle ="true">
+          <NavLink to='/Home'  activestyle ="true">
             Computer Sience
           </NavLink>
           {/* Second Nav */}

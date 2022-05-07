@@ -80,7 +80,7 @@ function App() {
                 <Router>
                 <Navbar/>
                 <Routes>
-                    <Route path='/' exact element={<Homes/>}/>  
+                    <Route path='/Home' exact element={<Homes/>}/>  
                     <Route path='/login' exact element={<Login passChildData={setChildData}/>}/>
                         <Route path='signup' exact element={<Signup/>}/>
                 </Routes>

@@ -39,7 +39,7 @@ const Navbar2 = (props) => {
         </NavMenu>
 
         {
-           <NavBtnLink to='/' onClick={functionHandler}>Log out</NavBtnLink>
+           <NavBtnLink to='/Home' onClick={functionHandler}>Log out</NavBtnLink>
         /* <NavBtn>
          
           <NavBtnLink to='/signup'>Sign Up</NavBtnLink>
