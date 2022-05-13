@@ -8,6 +8,8 @@
 4. Quyen Pho Tsai
 5. Omid Nikjoo
 
+### Hosted Website -: https://abhinavarora14799.github.io/quiztivity/
+
 ## How to Run the application Locally.
 
 Step 1:
