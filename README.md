@@ -1,22 +1,22 @@
-# CPSC 462 Final Project - Professor Lidia Morisson 
+=====CPSC 462 Final Project - Professor Lidia Morisson=====
 
-# Quiztivity
-## Authors:
+===Quiztivity===
+==Authors==
 1. Abhinav Arora 
 2. Anjali Patel
 3. Minh Nguyen 
 4. Quyen Pho Tsai
 5. Omid Nikjoo
 
-### Deployment -: https://abhinavarora14799.github.io/quiztivity/
 
-## How to Run the application Locally.
+
+===How to Run the Application Locally===
 
 Step 1:
-### `git clone` https://github.com/abhinavarora14799/quiztivity.git
+git clone https://github.com/abhinavarora14799/quiztivity.git
 
 Step 2:
-### `cd my-app`
+cd my-app 
 
 Step 3:
 Check package.json file and ensure scripts are notated as below:
@@ -29,11 +29,28 @@ Check package.json file and ensure scripts are notated as below:
   },
 
 Step 4:
-### `npm install`
+npm install
 
 Step 5:
-### `npm start` (This shall open the application at the configured localhost).
+npm start (This shall open the application at the configured localhost).
 
 Step 6:
- 
-If needed please run `npm audit fix` to fix any fixable errors, and ### `npm audit` to view the errors.
+If needed please run npm audit fix to fix any fixable errors, and npm audit to view the errors.
+
+
+
+===How to Access the Website===
+
+Step 1:
+Enter the following to browser's address bar: https://abhinavarora14799.github.io/quiztivity/
+
+Step 2:
+Create an account or use the following
+Email: test@yahoo.com
+Password: 1234Test
+
+Step 3:
+Log in using either the test account or your newly created account
+
+
+
