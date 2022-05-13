@@ -8,15 +8,15 @@
 4. Quyen Pho Tsai
 5. Omid Nikjoo
 
-### Hosted Website -: https://abhinavarora14799.github.io/quiztivity/
+### Deployment -: https://abhinavarora14799.github.io/quiztivity/
 
 ## How to Run the application Locally.
 
 Step 1:
-git clone https://github.com/abhinavarora14799/quiztivity.git
+### `git clone` https://github.com/abhinavarora14799/quiztivity.git
 
 Step 2:
-cd my-app 
+### `cd my-app`
 
 Step 3:
 Check package.json file and ensure scripts are notated as below:
@@ -29,10 +29,11 @@ Check package.json file and ensure scripts are notated as below:
   },
 
 Step 4:
-npm install
+### `npm install`
 
 Step 5:
-npm start (This shall open the application at the configured localhost).
+### `npm start` (This shall open the application at the configured localhost).
 
 Step 6:
-If needed please run npm audit fix to fix any fixable errors, and npm audit to view the errors.
+ 
+If needed please run `npm audit fix` to fix any fixable errors, and ### `npm audit` to view the errors.
